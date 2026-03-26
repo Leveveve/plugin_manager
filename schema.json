@@ -1,0 +1,20 @@
+{
+    "owner_id": {
+        "type": "string",
+        "name": "所有者ID",
+        "default": "",
+        "hint": "所有者的用户ID（支持QQ号、Telegram用户ID等），拥有启停插件的最高权限"
+    },
+    "admin_ids": {
+        "type": "list",
+        "name": "管理员列表",
+        "default": [],
+        "hint": "管理员的用户ID列表（支持QQ号、Telegram用户ID等），同样拥有启停插件的权限"
+    },
+    "show_builtin_plugins": {
+        "type": "switch",
+        "name": "显示内置插件",
+        "default": false,
+        "hint": "开启后查询插件列表时将包含内置核心插件，关闭则只显示用户插件"
+    }
+}

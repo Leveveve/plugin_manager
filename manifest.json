@@ -1,0 +1,8 @@
+{
+    "display_name": "插件查询",
+    "plugin_id": "plugin_manager",
+    "version": "1.0.0",
+    "author": "Lev.A",
+    "description": "管理用户插件的查询、启用和禁用，让 AI 能够感知并控制插件状态。",
+    "repo": ""
+}
